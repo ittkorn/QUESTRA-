@@ -27,7 +27,7 @@ echo '<link rel="stylesheet" type="text/css" href="RuaYai.css">';
 </head>
 <body>
 <div style="text-align: center;">
-    <a href="insertform.html" style="background-color: red; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Add Location</a>
+    <a href="insertform.php" style="background-color: red; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Add Location</a>
 </div>
 <br>
     
