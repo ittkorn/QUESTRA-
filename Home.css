@@ -1,0 +1,67 @@
+/* MENU BAR */
+.nav {
+    text-decoration: none; /* No underline */
+    background: rgb(0, 0, 0); /* Background color */
+    width: 100%; /* Full width */
+    display: flex; /* Flex display */
+    justify-content: space-between; /* Space between items */
+    padding: 5px; /* Padding */
+    border-radius: 22px; /* Border radius */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+/* Background before Click */
+.nav a {
+    color: rgb(255, 255, 255); /* Text color */
+    text-decoration: none; /* No underline */
+    border-radius: 22px; /* Border radius */
+    padding: 10px 300px; /* Added padding for better clickable area */
+    transition: background 0.25s, color 0.25s; /* Transition effect for background and color */
+}
+
+/* Background After Click */
+.nav a:hover {
+    background: rgb(240, 15, 15); /* Background color change */
+    color: white; /* Text color change */
+    text-decoration: none; /* No underline */
+}
+
+.content {
+    margin: 20px; /* ระยะห่างรอบๆ */
+}
+
+/* Image Container Styles */
+.image-container {
+    display: flex; /* Use flexbox for the container */
+    justify-content: space-between; /* Space images evenly */
+    align-items: center; /* Center images vertically */
+    flex-wrap: nowrap; /* Ensure images don't wrap to the next line */
+  
+
+.image-container figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.image-container img {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Image shadow */
+    transition: transform 0.25s ease-in-out; /* Transition effect for image */
+    display: inline-block; /* Display as inline-block */
+    max-width: 100%; /* Ensure images do not overflow */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+.image-container figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: black; /* Caption text color */
+    text-decoration: underline; /* Underline caption text */
+}
+
