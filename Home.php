@@ -59,7 +59,7 @@ echo '<link rel="stylesheet" type="text/css" href="Home.css">';
                     echo '<div class="image-container figcaption">'; // Start of card
                    
                     echo '<a href="' . $row["facebook"] . '" target="_blank">';
-                    echo '<img src="Image/' . $row["img"] . '" width="200" height="200">';
+                    echo '<img src="Image/' . $row["picture"] . '" width="200" height="200">';
                     echo '</a>';
                     // Apply inline CSS to remove underline from the name
                    
